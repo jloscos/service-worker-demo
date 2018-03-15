@@ -1,0 +1,1 @@
+Cette application ASP.NET Core illustre l'utilisation d'un service worker pour rendre un site disponible hors ligne.
