@@ -1,0 +1,8 @@
+﻿@model ServiceWorkerDemo.Models.Article
+
+<h2>@Model.Title</h2>
+<span>publié le @Model.DatePublished.ToString("dd/MM/yyyy HH:mm:ss")</span>
+<span> par @Model.Creator</span>
+<div>
+    @Html.Raw(Model.Content)
+</div>
